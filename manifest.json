@@ -1,0 +1,13 @@
+{
+	"manifest_version" : 3,
+	"name" : "Github Block",
+	"version" : "1.0",
+	"author" : "Sojak Studio",
+	"description" : "Github Block By Sojak Studio. The Password is 3432.",
+	"content_scripts" : [
+		{
+			"matches" : ["https://github.com/*"],
+			"js" : ["index.js"]
+		}
+	]
+}
